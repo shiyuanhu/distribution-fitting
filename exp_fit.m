@@ -31,7 +31,7 @@ minus_L_exp = @(theta)(-lnlike_exp(theta,x));
 % minimize the negative log likelihood
 [theta, max_L] = fminsearch(minus_L_exp,theta0);
 % 
-% form CompCuml
+% form C
 c = theta/(exp(-a*theta)-exp(-b*theta));
 C = @(y)1-c/theta*(exp(-a*theta)-exp(-y*theta));
 %
