@@ -19,7 +19,7 @@ function [theta,C,AIC] = exp_fit(x,a,b,theta0)
 %       theta: the best estimate parameter
 %       C: a function handle to compute C(x)
 %       AIC: a second-order Akaike’s Information Criterion that maybe later
-%            used for model selction
+%            used for model selection
 %  
 % Written by Shiyuan Hu <shiyuan.hu@nyu.edu>, Dec. 17, 2019
 %
