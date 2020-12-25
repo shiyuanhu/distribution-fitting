@@ -17,6 +17,8 @@ function [mu,C,AIC] = power_law_fit(x,a,b,mu0)
 %       AIC: a second-order Akaike's Information Criterion that 
 %            maybe later used for model selection
 %
+% Written by Shiyuan Hu <shiyuan.hu@nyu.edu>, Dec. 17, 2019
+%
 N = length(x);
 %
 % form negative log likelihood
